@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>The Close Enough Gallery</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/SelectOrDie/_src/selectordie.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <div class="ce-preloader hidden"></div>
+
+    <header class="ce-header">
+      <div class="ce-name-text">
+        <h4 class="text-uppercase">Close Enough Gallery</h4>
+      </div>
+      <div class="ce-social">
+        <a href="#" class="ce-social-icon"><i class="fa fa-tumblr"></i></a>
+        <a href="#" class="ce-social-icon"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="ce-social-icon"><i class="fa fa-facebook"></i></a>
+      </div>
+      <div class="ce-logo">
+        <img src="images/ceg-logo.png" alt="Close Enough Gallery">
+      </div>
+      <nav class="ce-site-menu">
+        <ul class="ce-main-menu list-inline">
+          <li><a href="index.html">Latest</a></li>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Focus</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">Editoral</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="ce-fullpage-wrapper container-fluid">
+
+    	<div class=".ce-product-item-container row-fluid">
+    		<section class="ce-product-info-left col-sm-3"></section>
+			<section class="ce-product-images col-sm-6 text-center">
+				<div class="ce-product-images-container">
+					<figure class="ce-product-image">
+						<img src="images/product/avi/avi-02.jpg" alt="" class="img-responsive">
+					</figure>
+					<figure class="ce-product-image">
+						<img src="images/product/avi/avi-03.jpg" alt="" class="img-responsive">
+					</figure>
+					<figure class="ce-product-image">
+						<img src="images/product/avi/avi-01.jpg" alt="" class="img-responsive">
+					</figure>
+				</div>
+			</section>
+			<section class="ce-product-info-right col-md-2 col-sm-3">
+				<div class="ce-product-info-container">
+					<h3 class="ce-product-title">Avi Gold</h3>
+					<div class="ce-product-brand">Tee</div>
+					<div class="ce-product-description">
+						<p>Visualizing the realism of life and actuality, fuck whose the baddest, a person's status depends on salary.</p>
+					</div>
+					<div class="ce-product-select">
+						<select name="size" id="size" data-custom-class="ce-select" class="ce-select">
+							<option selected="" disabled="">SELECT A SIZE</option>
+							<option value="XS">XS</option>
+							<option value="S">S</option>
+							<option value="M">M</option>
+							<option value="L">L</option>
+							<option value="XL">XL</option>
+						</select>
+						<button class="ce-btn ce-btn-add-to-bag">Add To Bag</button>
+					</div>
+				</div>
+			</section>
+    	</div>
+      
+    </main>
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="bower_components/SelectOrDie/_src/selectordie.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
