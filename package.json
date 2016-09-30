@@ -2,6 +2,7 @@
   "name": "site",
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
+    "devbridge-styleguide": "^0.4.10",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^1.0.0",
     "grunt-concurrent": "^0.5.0",
@@ -29,5 +30,8 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "bricks.js": "^1.1.1"
   }
 }

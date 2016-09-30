@@ -4,6 +4,12 @@
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
     "modernizr": "~2.8.2",
-    "SelectOrDie": "~0.1.8"
+    "SelectOrDie": "~0.1.8",
+    "masonry": "^4.0.0"
+  },
+  "overrides": {
+    "masonry": {
+        "main": ["./dist/masonry.pkgd.min.js"]
+    }
   }
 }

@@ -6,11 +6,20 @@ function boxTitleSize() {
 	});
 }
 
+// function moveWeight() {
+// 	$('.ce-container').masonry({
+// 		itemSelector: '.ce-box',
+// 		percentPosition: true,
+// 		gutter: 144
+// 	});
+// }
+
 $(function() {
 	$('.ce-logo, .ce-name-text').click(function() {
 		$('.ce-site-menu').toggleClass('active');
 	});
 	boxTitleSize();
+	// moveWeight();
 	$('.ce-select').selectOrDie();
 });
 

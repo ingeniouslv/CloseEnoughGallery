@@ -380,6 +380,13 @@ module.exports = function (grunt) {
     }
   });
 
+  var styleguide = require('devbridge-styleguide');
+  grunt.registerTask('start-styleguide', function () {
+    var done = this.async();
+    styleguide.startServer().then(function (instance) {
+      instance.on('close', done);
+    });
+  });  
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
     if (grunt.option('allow-remote')) {
